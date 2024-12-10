@@ -17,4 +17,10 @@ Umumnya, Penetration Testing Manual dilakukan dengan metode sebagai berikut:
 	 Data yang dikumpulkan dapat  membantu para penguji dalam mengenali celah keamanan dan mengambil tindakan pencegahan yang tepat.
 
  • Actual Exploit
- 	Sebelum melakukan serangan, deteksi versi layanan yang aktif pada target menggunakan nmap. Nmap akan mencoba mengidentifikasi nama protokol layanan dan versi dari layanan tersebut dengan menggunakan opsi “-sV” sebagaimana pada gambar [image](https://github.com/user-attachments/assets/d1fdd6b8-2941-4a42-9ac8-3a55be58f59b)
+ 	Sebelum melakukan serangan, deteksi versi layanan yang aktif pada target menggunakan nmap. Nmap akan mencoba mengidentifikasi nama protokol layanan dan versi dari layanan tersebut dengan menggunakan opsi “-sV” sebagaimana pada gambar ![image](https://github.com/user-attachments/assets/d1fdd6b8-2941-4a42-9ac8-3a55be58f59b)
+
+  Penyerangan dibantu dengan tool hydra, dan untuk melakukan brute force dengan hydra, diperlukan password. Terdapat berbagai password yang bisa digunakan; dalam contoh ini, digunakan password bawaan dari John the Ripper. Daftar password yang dihasilkan oleh alat peretasan password dapat dimodifikasi dengan opsi: Mausepad password list. Jika ingin mengetahui jumlah baris dalam file daftar password yang sudah didapat, kita gunakan opsi: Wc –l password list. Opsi -l akan menampilkan jumlah baris di dalam file daftar password, dengan output pertama sebagai jumlah dan output kedua sebagai nama file. Setelah daftar password siap, password yang telah disusun akan digunakan untuk melakukan brute force pada server ssh guna mendapatkan password.
+  Untuk memastikan seberapa kuat password yang kita gunakan dapat di cek pada website : https://howsecureismypassword.net/, contoh password acak yang saya masukkan pada laman terasebut ternyata dapat dcrack hanya dalam waktu dua menit. 
+ 
+  ![image](https://github.com/user-attachments/assets/29ec094d-69c3-4df4-866c-9eb42bfc801b)
+
