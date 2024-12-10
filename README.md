@@ -24,3 +24,9 @@ Umumnya, Penetration Testing Manual dilakukan dengan metode sebagai berikut:
  
   ![image](https://github.com/user-attachments/assets/29ec094d-69c3-4df4-866c-9eb42bfc801b)
 
+Terakhir,  melakukan SQL Injection dengan bantuan WebGoat. WebGoat adalahproject open source yang memungkinkan individu untuk mempelajari peretasan web, termasuk SQL Injection. Versi WebGoat yang digunakan di sini adalah WebGoat v5.1. WebGoat merupakan aplikasi web J2EE yang dikembangkan oleh OWASP untuk tujuan edukasi tentang keamanan aplikasi web. WebGoat menawarkan pelatihan mengenai masalah celah keamanan di web, yang dapat muncul karena berbagai alasan seperyti halnya salah implementasi. Banyak program yang dikerjakan dengan tergesa-gesa sehingga kurang teliti dalam penulisan kode, akibatnya pengujian sering kali diabaikan. Contoh: programmer sering kali mengabaikan untuk menyaring karakter-karakter aneh yang dimasukkan sebagai input dari sebuah program, contohnya seperti kasus di bawah ini.
+Mulai jalankan WebGoat yang telah di download, masuklah ke dalam folder hasil ekstrak, jalankan WebGoat 80 kemudian buka browser dan isilah url dengan http://127.0.0.1/WebGoat/attack. Jika ada pesan untuk memasukkan username dan password, masukkan username : gues dengan password: gues.
+
+![image](https://github.com/user-attachments/assets/36926b77-58c4-4d9c-a31c-af075e38c3de)
+
+Setelah Start WebGoat, pilih Injection Flaws → String SQL Injection. Lakukan percobaan Injeksi dengan Nama User "Smith‟ sebagai contoh  
