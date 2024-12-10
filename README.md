@@ -5,8 +5,6 @@
 |Radella Chesa Syaharani|5027231064|
 |Kharisma Fahrun Nisa' |5027231086|
 
-Report PDF: [REPORT FP Ethical Hacking](064_068_ReportFinalProject.pdf)
-
 ## Deskripsi Pengerjaan
 _Penetration Testing_ merupakan serangkaian kegiatan yang bertujuan untuk menemukan dan memanfaatkan kerentanan keamanan. Hal ini bertujuan untuk memverifikasi seberapa efektif atau tidaknya langkah-langkah keamanan yang telah diterapkan. _Penetration Testing_ terbagi dalam dua metode, yaitu: secara manual dan otomatis. _Penetration Testing_ Manual adalah pengujian yang dilakukan oleh manusia, sementara _penetration testing_ otomatis adalah pengujian yang dijalankan oleh mesin, sehingga tidak memerlukan ahli dan bisa dilakukan oleh siapa saja yang memiliki pengetahuan dalam bidang ini.
 Umumnya, _Penetration Testing_ Manual dilakukan dengan metode sebagai berikut:
